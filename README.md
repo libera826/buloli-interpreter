@@ -1,6 +1,6 @@
 # buloli-interpreter
 <img src="C:\Users\liber\Desktop\buloli.jpg" width="20%">
-╨р©ю╦╝ юнемга╦╝ем
+К╤┬Л≤╓К╕╛ Л²╦М└╟М■└К╕╛М└╟
 
 
 
