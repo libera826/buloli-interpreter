@@ -1,2 +1,7 @@
 # buloli-interpreter
-К╤┬Л≤╓К╕╛ Л²╦М└╟М■└К╕╛М└╟
+<img src="C:\Users\liber\Desktop\buloli.jpg" width="20%">
+╨р©ю╦╝ юнемга╦╝ем
+
+
+
+
