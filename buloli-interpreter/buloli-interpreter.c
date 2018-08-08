@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 	if (!parse_CMD_line(argv)) {
 		return 1;
 	}
-
+ 
 	// Read code from file
 	source_file = fopen(argv[1], "r");
 	if (source_file == NULL) {
@@ -34,22 +34,22 @@ int main(int argc, char *argv[]) {
 		printf("*pointer = 0x%02x\n", pointer_value[pointer_addr]);
 		printf("================================\n");
 		switch (fgetc(source_file)) {
-			case 'b':	// Æ÷ÀÎÅÍ ÁÖ¼Ò Áõ°¡ 
+			case 'b':	// í¬ì¸í„° ì£¼ì†Œ ì¦ê°€ 
 				pointer_addr += 0x1;
 				break;
-			case 'u':	// Æ÷ÀÎÅÍ ÁÖ¼Ò °¨¼Ò
+			case 'u':	// í¬ì¸í„° ì£¼ì†Œ ê°ì†Œ
 				pointer_addr -= 0x1;
 				break;
-			case 'l':	// Æ÷ÀÎÅÍ °ª Áõ°¡
+			case 'l':	// í¬ì¸í„° ê°’ ì¦ê°€
 				pointer_value[pointer_addr] += 1;
 				break;
-			case 'o':	// Æ÷ÀÎÅÍ °ª °¨¼Ò
+			case 'o':	// í¬ì¸í„° ê°’ ê°ì†Œ
 				pointer_value[pointer_addr] -= 1;
 				break;
-			case 'r':	// Æ÷ÀÎÅÍ °ªÀÇ ¾Æ½ºÅ° ¹®ÀÚ Ãâ·Â
+			case 'r':	// í¬ì¸í„° ê°’ì˜ ì•„ìŠ¤í‚¤ ë¬¸ì ì¶œë ¥
 				printf("%c\n", (int)pointer_value[pointer_addr]);
 				break;
-			case 'i':	// Æ÷ÀÎÅÍ¿¡ ¾Æ½ºÅ° ¹®ÀÚ ÀÔ·Â
+			case 'i':	// í¬ì¸í„°ì— ì•„ìŠ¤í‚¤ ë¬¸ì ì…ë ¥
 				scanf("%c", &pointer_value[pointer_addr]);
 				break;
 			default:
@@ -67,5 +67,5 @@ char parse_CMD_line(int argc) {
 		return -1;
 	}
 
-	//´Ù¸¥ ÀÎÀÚ°ª¿¡ ´ëÇÑ Ã³¸® ÄÚµå Ãß°¡ ¿¡Á¤
+	//ë‹¤ë¥¸ ì¸ìê°’ì— ëŒ€í•œ ì²˜ë¦¬ ì½”ë“œ ì¶”ê°€ ì—ì •
 }
