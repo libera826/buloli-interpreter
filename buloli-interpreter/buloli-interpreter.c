@@ -16,7 +16,7 @@ char pointer_value[256] = { 0, };
 
 int main(int argc, char *argv[]) {
 
-	if (!parse_CMD_line(argv)) {
+	if (!parse_CMD_line(argc)) {
 		return 1;
 	}
  
@@ -57,7 +57,7 @@ int main(int argc, char *argv[]) {
 		}
 	}
 	fclose(source_file);
-
+	
 	return 0;
 }
 
