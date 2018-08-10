@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2018 libera826
+ * See the file license.txt for copying permission.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -62,7 +67,7 @@ int main(int argc, char *argv[]) {
 
 char parse_CMD_line(int argc, char *argv[]) {
 	char curr_arg;
-	extern char *optarg; // 지정 옵션 이외의 파라미터 값이 저장됨(파일명)
+	extern char *optarg; // 지정 옵션 이외의 파라미터 값
 	
 	if (argc <= 1) {	//옵션이 입력 안됬거나 파일명이 없을경우
 		printf("Option : \n");
