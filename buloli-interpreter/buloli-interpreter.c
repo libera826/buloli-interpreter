@@ -34,8 +34,8 @@ int main(int argc, char *argv[]) {
 	while (!feof(source_file)) {	// check EOF
 		if (debug_mod == 1) {		// check debug mode
 			printf("===========DEBUG INFO===========\n");
-			printf("pointer = 0x%02x\n", pointer_addr);
-			printf("*pointer = 0x%02x\n", pointer_value[pointer_addr]);
+			printf("pointer = %#02x\n", pointer_addr);
+			printf("*pointer = %#02x\n", pointer_value[pointer_addr]);
 			printf("================================\n");
 		} 
 		
