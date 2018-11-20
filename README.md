@@ -1,4 +1,6 @@
-# buloli-interpreter
+# buloli-interpreter 
+[![CodeFactor](https://www.codefactor.io/repository/github/libera826/buloli-interpreter/badge)](https://www.codefactor.io/repository/github/libera826/buloli-interpreter)
+
 <img src="https://user-images.githubusercontent.com/24970375/43626716-096b659e-972e-11e8-930d-7e072ee1b76f.jpg" width="20%">
 
 불오리 인터프리터는 BrainFuxx 언어에 영감을 받아 제작되었습니다.
