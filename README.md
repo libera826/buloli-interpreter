@@ -1,5 +1,8 @@
 # buloli-interpreter 
+
+![GitHub release](https://img.shields.io/github/release/libera826/buloli-interpreter.svg)
 [![CodeFactor](https://www.codefactor.io/repository/github/libera826/buloli-interpreter/badge)](https://www.codefactor.io/repository/github/libera826/buloli-interpreter)
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 <img src="https://user-images.githubusercontent.com/24970375/43626716-096b659e-972e-11e8-930d-7e072ee1b76f.jpg" width="20%">
 
